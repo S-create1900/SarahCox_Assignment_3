@@ -1,17 +1,16 @@
 package com.coderscampus_A3;
 
-public class User {
+public class UserPOJO {
 	private String username;
 	private String password;
 	private String name;
 
-	public User(String username, String password, String name) {
+	public UserPOJO(String username, String password, String name) {
 		this.username = username;
 		this.password = password;
 		this.name = name;
 	}
 
-	// getters and setters for the above instance variables.
 	public String getUsername() {
 		return username;
 	}
@@ -37,5 +36,3 @@ public class User {
 	}
 
 }
-
-
